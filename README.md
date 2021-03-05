@@ -1,12 +1,12 @@
-To use this Activity Tracker App.
-You have to follow few steps.
-  In this app, right now there are only two user that is why two card is showing over there.
-  Once you reach the cart, there are individually buttons for users. Afetr clicking on buttoons. there will be a modal open in the form of calendar.
-  you can see user name in the above.
-  firstly, calendar has started from 2021, but our task is started from 2020, for that there is back && next buttons.
-  by clicking back, we will reach at the right month. then over there we can see the users ativity.
-  To know the users activity timing, there is a day button just click and see the user activity over there.
-  In this way, this Activity Tracker App is working.
+# To use this Activity Tracker App.
+* You have to follow few steps.
+* In this app, right now there are only two user that is why two card is showing over there.
+* Once you reach the cart, there are individually buttons for users. Afetr clicking on buttoons. there will be a modal open in the form of calendar.
+*   you can see user name in the above.
+*  Firstly, calendar has started from 2021, but our task is started from 2020, for that there is back && next buttons.
+* By clicking back, we will reach at the right month. then over there we can see the users ativity.
+* To know the users activity timing, there is a day button just click and see the user activity over there.
+* In this way, this Activity Tracker App is working.
 
 
 
