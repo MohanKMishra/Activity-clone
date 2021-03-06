@@ -1,9 +1,9 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import HTML5Backend from "react-dnd-html5-backend";
-import { DragDropContext } from "react-dnd";
+// import ReactDOM from "react-dom";
+// import HTML5Backend from "react-dnd-html5-backend";
+// import { DragDropContext } from "react-dnd";
 import BigCalendar from "react-big-calendar";
-import 'moment-timezone';
+// import 'moment-timezone';
 import withDragAndDrop from "react-big-calendar/lib/addons/dragAndDrop";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 
@@ -29,8 +29,8 @@ class Calendar extends React.Component {
       tempEvents.push({
         title: 'activity',
         allDay: false,
-        start: moment(activity.start_time, "lll").tz(this.props.data.tz).toDate(),
-        end: moment(activity.end_time, "lll").tz(this.props.data.tz).toDate(),
+        start: moment(activity.start_time, "lll").toDate(),
+        end: moment(activity.end_time, "lll").toDate(),
       });
     }
     console.log(tempEvents);
@@ -55,7 +55,7 @@ class Calendar extends React.Component {
     const { events } = this.state.events;
 
     const nextEvents = events.map((existingEvent) => {
-      return existingEvent.id == event.id
+      return existingEvent.id === event.id
         ? { ...existingEvent, start, end }
         : existingEvent;
     });
